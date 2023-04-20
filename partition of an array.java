@@ -1,4 +1,4 @@
-# patition of an array
+// patition of an array
  
  import java.io.*;
 import java.util.*;
