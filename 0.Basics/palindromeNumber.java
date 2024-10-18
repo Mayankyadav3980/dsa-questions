@@ -2,7 +2,6 @@
 // Check whether a given number ’n’ is a palindrome number.
 // Note :
 // Palindrome numbers are the numbers that don't change when reversed.
-// You don’t need to print anything. Just implement the given function.
 // Example:
 // Input: 'n' = 51415
 // Output: true
