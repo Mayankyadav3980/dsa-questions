@@ -18,13 +18,8 @@ public class maximumNumber {
         int[] arr = new int[4];
         for(int i=3; i>=0; i--){
             int temp=x%10;
-            System.out.println("temp is: "+temp);
             x=x/10;
             arr[i]=temp;
-        }
-        System.out.println("arr is");
-        for (int i : arr) {
-            System.out.print(i+ " ");
         }
         int min = Integer.MAX_VALUE;
         for(int i=0; i<4; i++){
@@ -32,7 +27,6 @@ public class maximumNumber {
                 min=arr[i];
             }
         }
-        System.out.println("min value is: "+ min);
         int ans=0, pow=2;
         for(int i=0; i<4; i++){
             if(arr[i] == min) continue;
