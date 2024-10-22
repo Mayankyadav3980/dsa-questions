@@ -1,3 +1,4 @@
+package Patterns;
 // Problem statement
 // Print the following pattern for given number of rows.
 // Detailed explanation ( Input/output format, Notes, Images )
