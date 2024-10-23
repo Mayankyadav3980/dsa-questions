@@ -2,8 +2,10 @@ public class test {
   
 
     public static void main(String[] args) {
-        int a=10;
-        System.out.print(a==10);
+        String[] carr = new String[5];
+        for(String c: carr){
+            System.out.println(c);
+        }
     }
 }
 
